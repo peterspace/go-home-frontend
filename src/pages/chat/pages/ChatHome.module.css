@@ -1,0 +1,75 @@
+.shapeWithText {
+  position: relative;
+  border-radius: var(--br-lg-4);
+  background-color: var(--color-gray-200-z);
+  width: 48px;
+  height: 46px;
+}
+.folderFavoriteIcon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.shapeWithTextParent {
+  position: relative;
+  width: 48px;
+  height: 46px;
+}
+.clickOnA {
+  position: absolute;
+  top: calc(50% - 23.5px);
+  left: calc(50% - 250px);
+}
+.clickToChat {
+  position: relative;
+  width: 1000px;
+  height: 765px;
+}
+.chatHeaderContainerParent,
+.inboxParent,
+.messages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messages {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-300-z);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1029px;
+  height: 765px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+}
+.chatHeaderContainerParent,
+.inboxParent {
+  width: 1440px;
+  height: 787px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.chatHeaderContainerParent {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  width: 1439px;
+  height: 926px;
+  flex-direction: column;
+}
+.chatHome {
+  position: relative;
+  background-color: var(--color-gray-400-z);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--text-3-d-p);
+  font-family: var(--font-poppins);
+}

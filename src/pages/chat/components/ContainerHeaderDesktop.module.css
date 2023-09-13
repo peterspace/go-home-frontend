@@ -1,0 +1,75 @@
+.logoFrameIcon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 36px;
+  height: 46px;
+  overflow: hidden;
+}
+.govercity {
+  position: absolute;
+  top: 19px;
+  left: 44px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.govercityLogo {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  border-radius: var(--br-xs);
+  width: 153px;
+  height: 66px;
+}
+.services {
+  color: var(--text-3-d-p);
+}
+.contact,
+.services {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.servicesParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.headerDesktopInner {
+  position: absolute;
+  top: 39px;
+  left: 799px;
+  width: 220px;
+  height: 20px;
+  font-size: var(--text-16-bd-size);
+  color: var(--color-gray-1100);
+}
+.headerDesktop {
+  position: relative;
+  backdrop-filter: blur(120px);
+  width: 1024px;
+  height: 98px;
+}
+.containerHeaderDesktop {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 1440px;
+  height: 98px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-189xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-20-bd-size);
+  color: var(--text-3-d-p);
+  font-family: var(--text-14-md);
+}

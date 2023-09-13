@@ -1,0 +1,42 @@
+.web30Eco {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.yourGatewayTo {
+  margin: 0;
+  font-size: 38.26px;
+}
+.web30EcoContainer {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 329px);
+  display: inline-block;
+  width: 758.83px;
+  height: 145.6px;
+}
+.sliderContainer {
+  position: absolute;
+  top: 990px;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+}
+.screenDesktopContact1440 {
+  position: relative;
+  width: 100%;
+  height: 2048px;
+  overflow: hidden;
+  background-image: url(/screendesktopvision1440@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--text-1-d);
+  font-family: var(--font-poppins);
+}

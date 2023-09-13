@@ -1,0 +1,29 @@
+.aug20,
+.checkDoubleIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.aug20 {
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 38px;
+  height: 10px;
+}
+.checkDoubleIcon {
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.deliveryNotification {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--text-3-d-p);
+  font-family: var(--font-roboto-mono);
+}

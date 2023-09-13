@@ -1,0 +1,176 @@
+.child,
+.ellipse-div,
+.inner,
+.item {
+  position: absolute;
+  top: 178px;
+  left: 620px;
+  border-radius: 50%;
+  background-color: var(--color-plum);
+  filter: blur(360px);
+  width: 501px;
+  height: 340px;
+  opacity: 0.6;
+}
+.ellipse-div,
+.inner,
+.item {
+  top: 445px;
+  left: 614px;
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.ellipse-div,
+.inner {
+  left: 339px;
+  background-color: var(--color-plum);
+  width: 501px;
+  height: 340px;
+}
+.ellipse-div {
+  top: 129px;
+  left: 252px;
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.documentation {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.documentation-parent {
+  position: absolute;
+  top: 934px;
+  left: 0;
+  background-color: rgba(13, 13, 26, 0.24);
+  backdrop-filter: blur(120px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-29xl);
+}
+.horiza,
+.swap {
+  position: relative;
+  line-height: 32px;
+}
+.swap {
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--text-1-d);
+}
+.horiza-parent,
+.swap-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.swap-parent {
+  align-items: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: var(--text-16-bd-size);
+  color: var(--color-gray-100);
+  font-family: var(--text-16-bd);
+}
+.horiza-parent {
+  align-items: center;
+  gap: var(--gap-29xl);
+}
+.protocol-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.ethereum {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.chevron-down-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.protocol-icon-parent {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  display: flex;
+  flex-direction: row;
+  padding: 10px var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.wallet-02-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.connect-wallet {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+}
+.wallet-02-parent {
+  border-radius: var(--br-xs);
+  background-color: #8d3dff;
+  padding: var(--padding-2xs) 24px var(--padding-2xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+}
+.frame-group,
+.frame-parent,
+.wallet-02-parent {
+  display: flex;
+  flex-direction: row;
+}
+.frame-group {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-16-bd-size);
+  font-family: var(--text-16-bd);
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  backdrop-filter: blur(120px);
+  width: 1440px;
+  padding: var(--padding-base) 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 28px;
+  color: var(--text-1-d);
+  font-family: var(--font-value-sans-pro);
+}
+.div {
+  position: relative;
+  background-color: var(--surface-1-d);
+  width: 100%;
+  height: 986px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-2-d);
+  font-family: var(--text-16-bd);
+}

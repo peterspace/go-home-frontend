@@ -1,0 +1,62 @@
+.doneIcon,
+.doneIcon1,
+.doneIcon2,
+.doneIcon3 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 32px;
+  height: 32px;
+}
+.doneIcon1,
+.doneIcon2,
+.doneIcon3 {
+  left: 324px;
+}
+.doneIcon2,
+.doneIcon3 {
+  left: 218px;
+}
+.doneIcon3 {
+  left: 115px;
+}
+.completed,
+.deposited,
+.inProgress,
+.initialized {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  letter-spacing: 0.02em;
+}
+.completed,
+.deposited,
+.inProgress {
+  left: 195px;
+}
+.completed,
+.deposited {
+  left: 96px;
+}
+.completed {
+  left: 302px;
+}
+.transactionProgressBar {
+  position: absolute;
+  top: calc(50% - 29px);
+  left: calc(50% - 188px);
+  width: 377px;
+  height: 59px;
+}
+.notificationProgress {
+  position: relative;
+  background-color: #fff;
+  width: 440px;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #09f;
+  font-family: Inter;
+}

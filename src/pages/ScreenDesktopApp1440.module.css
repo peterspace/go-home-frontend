@@ -1,0 +1,148 @@
+.web30Eco {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.yourGatewayTo {
+  margin: 0;
+  font-size: 38.26px;
+}
+.web30EcoContainer {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 329px);
+  display: inline-block;
+  width: 758.83px;
+  height: 145.6px;
+}
+.sliderContainer {
+  position: absolute;
+  top: 990px;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+}
+.conatctUsCardChild,
+.conatctUsCardItem {
+  border: 1px solid var(--color-mediumpurple-100);
+  font-weight: 500;
+  background-color: transparent;
+  left: calc(50% - 130px);
+  box-sizing: border-box;
+  width: 260px;
+  height: 50px;
+  overflow: hidden;
+}
+.conatctUsCardChild {
+  font-family: var(--font-poppins);
+  font-size: var(--text-16-md-size);
+  position: absolute;
+  top: 20px;
+  border-radius: var(--br-5xs);
+}
+.conatctUsCardItem {
+  top: 86px;
+  border-radius: var(--br-7xs);
+}
+.conatctUsCardInner,
+.conatctUsCardItem,
+.send {
+  position: absolute;
+  font-size: var(--text-16-md-size);
+  font-family: var(--font-poppins);
+}
+.conatctUsCardInner {
+  border: 1px solid var(--color-mediumpurple-100);
+  font-weight: 500;
+  background-color: transparent;
+  top: 152px;
+  left: calc(50% - 130px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 260px;
+  height: 50px;
+  overflow: hidden;
+}
+.send {
+  top: 13px;
+  left: calc(50% - 24px);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 47px;
+  height: 23px;
+}
+.sendWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumpurple-100);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 218px;
+  left: calc(50% - 60px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+  overflow: hidden;
+}
+.conatctUsCard,
+.notification {
+  position: absolute;
+  top: 114px;
+  left: 74px;
+  width: 300px;
+  height: 469px;
+  overflow: hidden;
+}
+.notification {
+  top: 69px;
+  left: 23px;
+  background-color: var(--text-1-d);
+  width: 448px;
+  height: 698px;
+}
+.desktopApp,
+.desktopAppContainer2 {
+  position: absolute;
+  left: calc(50% - 247px);
+  border-radius: var(--br-base);
+  width: 494px;
+  overflow: hidden;
+}
+.desktopApp {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-image: url(/desktopapp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.desktopAppContainer2 {
+  height: 38.38%;
+  top: 7.37%;
+  bottom: 54.25%;
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.screenDesktopApp1440 {
+  position: relative;
+  width: 100%;
+  height: 2048px;
+  overflow: hidden;
+  background-image: url(/screendesktopvision1440@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--text-1-d);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,114 @@
+.logoFrameIcon {
+  position: relative;
+  width: 36px;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.govercity {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.govercityLogo {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.services {
+  color: var(--text-1-d);
+}
+.contact,
+.services {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.headerDesktop,
+.headerDesktopInner,
+.servicesParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.servicesParent {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.headerDesktop,
+.headerDesktopInner {
+  align-items: center;
+}
+.headerDesktopInner {
+  font-size: var(--text-16-md-size);
+  color: var(--color-gray-400);
+}
+.headerDesktop {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 600px);
+  backdrop-filter: blur(120px);
+  width: 1200px;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 826px;
+}
+.containerHeaderDesktop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1440px;
+  height: 88px;
+  overflow: hidden;
+}
+.web30Eco {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.yourGatewayTo {
+  margin: 0;
+  font-size: 38.26px;
+}
+.web30EcoContainer {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 329px);
+  display: inline-block;
+  width: 758.83px;
+  height: 145.6px;
+}
+.sliderContainer {
+  position: absolute;
+  top: 990px;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-poppins);
+}
+.screenDesktopOffer1440 {
+  position: relative;
+  width: 100%;
+  height: 2048px;
+  overflow: hidden;
+  background-image: url(/screendesktopvision1440@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--text-20-bd-size);
+  color: var(--text-1-d);
+  font-family: var(--text-16-md);
+}

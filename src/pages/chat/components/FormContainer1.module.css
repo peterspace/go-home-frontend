@@ -1,0 +1,192 @@
+.groups {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 52px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 105px;
+}
+.groupChats {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-700);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 150px;
+  height: 40px;
+  overflow: hidden;
+}
+.all {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 31px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 63px;
+}
+.allChats,
+.groupChatsParent {
+  position: absolute;
+  top: 0;
+  height: 40px;
+}
+.allChats {
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-900);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 150px;
+  overflow: hidden;
+}
+.groupChatsParent {
+  left: calc(50% - 154.5px);
+  width: 310px;
+}
+.inboxInner {
+  position: relative;
+  width: 345px;
+  height: 40px;
+}
+.inboxContainer,
+.inboxUsers {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inboxUsers {
+  width: 300px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.inboxContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  flex-direction: row;
+  padding: var(--padding-xl);
+}
+.inboxContainerWrapper {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-400-z);
+  border: 1px solid var(--color-mediumpurple-100);
+  overflow: hidden;
+}
+.logoutButtonChild {
+  position: absolute;
+  height: 50.63%;
+  width: 13.5%;
+  top: 19.69%;
+  right: 73.25%;
+  bottom: 29.69%;
+  left: 13.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logout,
+.logoutButton {
+  position: absolute;
+  top: calc(50% - 20px);
+}
+.logout {
+  left: calc(50% - 26px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 94px;
+}
+.logoutButton {
+  left: calc(50% - 75px);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-900);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 150px;
+  height: 40px;
+  overflow: hidden;
+}
+.logoutButtonContainer {
+  position: relative;
+  width: 350px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inbox {
+  border-radius: 0 var(--br-7xs) var(--br-7xs) 0;
+  background-color: var(--color-gray-300-z);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 370px;
+  height: 765px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-crimson);
+  font-family: var(--font-roboto-mono);
+}
+
+
+.groupChatsCustom {
+  /* position: absolute; */
+  top: 0;
+  /* left: 160px; */
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-700);
+  border: 2px solid var(--color-crimson);
+  box-sizing: border-box;
+  /* width: 150px; */
+  /* width: 310px; */
+  height: 40px;
+  overflow: hidden;
+}
+
+.allCustom {
+  position: absolute;
+  top: calc(50% - 18px);
+  /* left: calc(50% - 31px); */
+  letter-spacing: -0.02em;
+  /* line-height: 150%; */
+  /* display: inline-block; */
+  width: 63px;
+}
+
+.groupChatsCustom2 {
+  /* position: absolute; */
+  top: 0;
+  /* left: 160px; */
+  
+  height: 40px;
+  top: 52px;
+  width: 325px;
+  font-family: var(--font-roboto-mono);
+}
+
+.ticketFilterCustom {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 52px;
+  width: 355px;
+  font-family: var(--font-roboto-mono);
+}

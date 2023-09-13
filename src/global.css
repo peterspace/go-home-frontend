@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Satoshi+Variable:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Value+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@700&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --text-16-md: 'Satoshi Variable';
+  --font-value-sans-pro: 'Value Sans Pro';
+  --font-inter: Inter;
+  --font-sf-pro-display: 'SF Pro Display';
+
+  /* font sizes */
+  --text-16-md-size: 16px;
+  --text-20-bd-size: 20px;
+  --font-size-9xl: 28px;
+  --text-14-md-size: 14px;
+  --text-32-bd-size: 32px;
+  --text-18-md-size: 18px;
+  --font-size-5xl: 24px;
+  /* mobile extended*/
+
+  /* Colors */
+  --surface-3-d: #28232e;
+  --surface-1-d: #130d1a;
+  --color-gray-100: rgba(255, 255, 255, 0.72);
+
+  --text-1-48-d: rgba(255, 255, 255, 0.48);
+  --color-gray-200: rgba(255, 255, 255, 0.8);
+  --color-gray-300: rgba(13, 13, 26, 0.24);
+  --surface-tint-64-d: rgba(255, 255, 255, 0.64);
+  --surface-tint-d-8: rgba(255, 255, 255, 0.08);
+  --surface-tint-16-d: rgba(255, 255, 255, 0.16);
+  --surface-1-64-d: rgba(19, 13, 26, 0.64);
+  --text-1-d: #fff;
+  --text-allert-d: #ff5c5c;
+  --surface-alert-d: rgba(255, 92, 92, 0.16);
+  --text-2-d: #9d9da3;
+  --color-slateblue: #6a40ae;
+  --color-plum: #dca4fd;
+  --text-attention-d: #ffb237;
+  --surface-attention-d: rgba(255, 178, 55, 0.12);
+  --color-blueviolet-100: #8d3dff;
+  --text-accent-d: #b27cff;
+  --text-success-d: #17f18b;
+  --surface-success-d: rgba(23, 241, 139, 0.12);
+  /* mobile extended*/
+  /* --color-gray-100: rgba(0, 0, 0, 0.01); */
+  /* --color-blueviolet-100: rgba(135, 49, 245, 0.18); */
+  --color-gray-mobile-100: rgba(0, 0, 0, 0.01);
+  --color-blueviolet-mobile-100: rgba(135, 49, 245, 0.18);
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-29xl: 48px;
+  --gap-11xs: 2px;
+  --gap-13xl: 32px;
+  /* mobile extended*/
+  --gap-5xl: 24px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-13xl: 32px;
+  --padding-2xs: 11px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+  --padding-4xs: 9px;
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  /* mobile extended*/
+  --padding-xl: 20px;
+  --padding-11xs: 2px;
+
+  /* border radiuses */
+  --br-13xl: 32px;
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-4xs: 9px;
+  --br-3xs: 10px;
+  --br-3xl: 22px;
+  /* mobile extended*/
+
+  /* Effects */
+  --effect: 0px 0px 16px rgba(0, 0, 0, 0.04),
+    0px 24px 48px -12px rgba(16, 24, 40, 0.08);
+  --switch-shadow: 0px 0px 8px rgba(6, 17, 41, 0.06);
+}

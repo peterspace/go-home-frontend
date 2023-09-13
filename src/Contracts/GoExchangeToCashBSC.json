@@ -1,0 +1,2027 @@
+{
+	"address": "0xC6E825c1379feD6175AD0B34E5E1Da38AC031956",
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "dexShare",
+					"type": "uint256"
+				}
+			],
+			"name": "bankGetCrypto",
+			"outputs": [],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "bool",
+					"name": "status",
+					"type": "bool"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "BankPaidCash",
+			"type": "event"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "_dexShare",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "BankPaidCrypto",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "bankPayCash",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "bool",
+					"name": "status",
+					"type": "bool"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "BankReceivedCrypto",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_blocks",
+					"type": "uint256"
+				}
+			],
+			"name": "changeBlocks",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_newExecutiveManagingDirector",
+					"type": "address"
+				}
+			],
+			"name": "changeED",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "clientCancel",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "clientGetCash",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": false,
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "client",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "ClientOrder",
+			"type": "event"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": false,
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "client",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "escrow",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "ClientPaidCrypto",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_token",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "clientPayCrypto",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "bool",
+					"name": "status",
+					"type": "bool"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "ClientReceivedCash",
+			"type": "event"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": false,
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "client",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "ExchangeSucesseful",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_token",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "dexShare",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "tokenDecimals",
+					"type": "uint256"
+				}
+			],
+			"name": "getCash",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address payable",
+					"name": "_newDexAddress",
+					"type": "address"
+				}
+			],
+			"name": "setDexAddress",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"anonymous": false,
+			"inputs": [],
+			"name": "Start",
+			"type": "event"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": false,
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "client",
+					"type": "address"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"indexed": false,
+					"internalType": "uint256",
+					"name": "date",
+					"type": "uint256"
+				}
+			],
+			"name": "Withdrawn",
+			"type": "event"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "_deposits",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "_txIds",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "_value",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "_withdrawals",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "accountBalances",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "blocks",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "checkEscrowBal",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_client",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				}
+			],
+			"name": "depositsOf",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "dexAddress",
+			"outputs": [
+				{
+					"internalType": "address payable",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "endBlock",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "ended",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "escrow",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "executiveManagingDirector",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getBanksCompletedTransacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getBanksHasNotPaidCash",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getBanksHasNotReceivedCrypto",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getBanksNewTransacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getBanksTransacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsCompletedTransacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsHasCreatedOrders",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsHasNotPaidCrypto",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsHasNotReceivedCash",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsNewOrders",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getClientsTransacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getCurrentTransaction",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "getExchangeVoucherForId",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getLatestidToExchangeVoucher",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "getOneBanksCompletedTransact",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_txId",
+					"type": "uint256"
+				}
+			],
+			"name": "getOneClientsCompletedTransact",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "txId",
+							"type": "uint256"
+						},
+						{
+							"internalType": "address",
+							"name": "token",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "client",
+							"type": "address"
+						},
+						{
+							"internalType": "address",
+							"name": "bank",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "CryptoPrice",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "tokenDecimals",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bool",
+							"name": "completed",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientPaidCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankPaidCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientReceivedCash",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "bankReceivedCrypto",
+							"type": "bool"
+						},
+						{
+							"internalType": "bool",
+							"name": "clientCreatedOrder",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dexShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GoExchangerToCash.ExchangeVoucher",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "goExchange",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "txId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "client",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "bank",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "CryptoPrice",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "tokenDecimals",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bool",
+					"name": "completed",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "clientPaidCrypto",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "bankPaidCash",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "clientReceivedCash",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "bankReceivedCrypto",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "clientCreatedOrder",
+					"type": "bool"
+				},
+				{
+					"internalType": "uint256",
+					"name": "dexShare",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "startBlock",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "started",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "tax",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "token",
+					"type": "address"
+				}
+			],
+			"name": "whitelistToken",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "txId",
+					"type": "uint256"
+				}
+			],
+			"name": "withdrawalAllowed",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+  }
+  

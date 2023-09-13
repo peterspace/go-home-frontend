@@ -1,0 +1,68 @@
+.return {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 23px);
+  letter-spacing: 0.02em;
+}
+.confirmButton {
+  position: absolute;
+  top: 333px;
+  left: 170px;
+  border-radius: 8px;
+  background-color: #000;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+}
+.notificationBodyChild {
+  position: absolute;
+  top: 44px;
+  left: 188px;
+  width: 64px;
+  height: 64px;
+}
+.thankYouFor,
+.transactionComplete {
+  position: absolute;
+  top: 57px;
+  left: calc(50% - 83px);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 166px;
+}
+.thankYouFor {
+  top: 0;
+  left: calc(50% - 172.5px);
+  width: 345px;
+}
+.bgStatus,
+.startNotification {
+  position: absolute;
+  top: 94px;
+  left: calc(50% - 173px);
+  width: 345px;
+  height: 17px;
+  color: #09f;
+}
+.bgStatus {
+  top: 137px;
+  left: calc(50% - 200px);
+  border-radius: 8px;
+  background-color: #e8e8e8;
+  width: 400px;
+  height: 167px;
+  overflow: hidden;
+  color: #000;
+}
+.notificationBody {
+  position: relative;
+  background-color: #fff;
+  width: 440px;
+  height: 400px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}

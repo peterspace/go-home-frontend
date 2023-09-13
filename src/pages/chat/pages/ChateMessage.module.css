@@ -1,0 +1,46 @@
+.shapeWithText {
+  position: relative;
+  border-radius: var(--br-lg-4);
+  background-color: var(--color-gray-200-z);
+  width: 48px;
+  height: 46px;
+}
+.folderFavoriteIcon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.shapeWithTextParent {
+  position: relative;
+  width: 48px;
+  height: 46px;
+}
+.chatHeaderContainerParent,
+.inboxParent {
+  width: 1440px;
+  height: 787px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.chatHeaderContainerParent {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  width: 1439px;
+  height: 926px;
+  flex-direction: column;
+}
+.chateMessage {
+  position: relative;
+  background-color: var(--color-gray-400-z);
+  width: 100%;
+  /* height: 1024px; */
+  height: 100vh;
+  overflow: hidden;
+}

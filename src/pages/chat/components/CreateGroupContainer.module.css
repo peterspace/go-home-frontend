@@ -1,0 +1,159 @@
+.createTicket,
+.state {
+  position: absolute;
+  line-height: 150%;
+}
+.createTicket {
+  top: 0;
+  left: calc(50% - 77.5px);
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.01em;
+  color: var(--color-gainsboro-z);
+}
+.state {
+  top: calc(50% - 10px);
+  left: calc(50% - 20.5px);
+  letter-spacing: -0.02em;
+}
+.buttonState {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 87.5px);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-200-z);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 85px;
+  height: 30px;
+  overflow: hidden;
+}
+.city {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 16.5px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.buttonCity {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 2.5px);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-200-z);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 85px;
+  height: 30px;
+  overflow: hidden;
+}
+.status {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 24.5px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.buttonStatus {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 92.5px);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-200-z);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 85px;
+  height: 30px;
+  overflow: hidden;
+}
+.country {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 28.5px);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.buttonCountry,
+.ticketFilter {
+  position: absolute;
+  left: 0;
+  height: 30px;
+}
+.buttonCountry {
+  top: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-900);
+  border: 1px solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 85px;
+  overflow: hidden;
+}
+.ticketFilter {
+  top: 52px;
+  width: 355px;
+  font-family: var(--font-roboto-mono);
+}
+.enterGroupName {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 14px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+.buttonStatus1,
+.groupNameCard {
+  position: absolute;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.groupNameCard {
+  top: 112px;
+  left: 0;
+  background-color: var(--color-gray-300-z);
+  border: 1px solid var(--text-3-d-p);
+  width: 355px;
+  height: 40px;
+  color: var(--color-gray-100-z);
+}
+.buttonStatus1 {
+  /* top: 270px; */
+  top: 372px;
+  right: 0;
+  background-color: var(--color-gray-200-z);
+  border: 1px solid var(--color-crimson);
+  width: 85px;
+  height: 30px;
+  font-family: var(--font-roboto-mono);
+}
+.createGroupCard {
+  position: relative;
+  width: 355px;
+  /* height: 300px; */
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.createGroupContainer {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-300-z);
+  border: 1px solid var(--color-mediumpurple-100-z);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-14-md-size);
+  color: var(--color-crimson);
+  font-family: var(--font-poppins);
+}
+
+.ticketFilterCustom {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 52px;
+  width: 355px;
+  font-family: var(--font-roboto-mono);
+}

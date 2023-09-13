@@ -1,0 +1,512 @@
+{
+	"address": "0x577f3b75a5c1458047efe445A7B1bDdc48D3E1eD",
+	"abi": [
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "_newExecutiveManagingDirector",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "changeED",
+		  "outputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "stateMutability": "nonpayable",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "stateMutability": "nonpayable",
+		  "type": "constructor"
+	  },
+	  {
+		  "anonymous": false,
+		  "inputs": [
+			  {
+				  "indexed": false,
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "dexAddress",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "escrow",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "dexShare",
+				  "type": "uint256"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "date",
+				  "type": "uint256"
+			  }
+		  ],
+		  "name": "ClientPaidFees",
+		  "type": "event"
+	  },
+	  {
+		  "anonymous": false,
+		  "inputs": [
+			  {
+				  "indexed": false,
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "client",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "receiver",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "escrow",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "date",
+				  "type": "uint256"
+			  }
+		  ],
+		  "name": "ClientSentToken",
+		  "type": "event"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "receiver",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "dexShare",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "dexAddress",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "dexDepositAndSendTokens",
+		  "outputs": [],
+		  "stateMutability": "payable",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  }
+		  ],
+		  "name": "dexDepositToken",
+		  "outputs": [],
+		  "stateMutability": "nonpayable",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "receiver",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "dexShare",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "dexAddress",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "dexSendToken",
+		  "outputs": [],
+		  "stateMutability": "payable",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "uint256",
+				  "name": "dexShare",
+				  "type": "uint256"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "dexAddress",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "dexWithdrawToken",
+		  "outputs": [],
+		  "stateMutability": "payable",
+		  "type": "function"
+	  },
+	  {
+		  "anonymous": false,
+		  "inputs": [
+			  {
+				  "indexed": false,
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "client",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "receiver",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "date",
+				  "type": "uint256"
+			  }
+		  ],
+		  "name": "TransferSucesseful",
+		  "type": "event"
+	  },
+	  {
+		  "anonymous": false,
+		  "inputs": [
+			  {
+				  "indexed": false,
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": true,
+				  "internalType": "address",
+				  "name": "client",
+				  "type": "address"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "amount",
+				  "type": "uint256"
+			  },
+			  {
+				  "indexed": false,
+				  "internalType": "uint256",
+				  "name": "date",
+				  "type": "uint256"
+			  }
+		  ],
+		  "name": "Withdrawn",
+		  "type": "event"
+	  },
+	  {
+		  "stateMutability": "payable",
+		  "type": "receive"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "_deposits",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "_withdrawals",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "accountBalances",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "name": "clientPaidFees",
+		  "outputs": [
+			  {
+				  "internalType": "bool",
+				  "name": "",
+				  "type": "bool"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "name": "clientSentCrypto",
+		  "outputs": [
+			  {
+				  "internalType": "bool",
+				  "name": "",
+				  "type": "bool"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "name": "escrow",
+		  "outputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "name": "executiveManagingDirector",
+		  "outputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  },
+			  {
+				  "internalType": "address",
+				  "name": "client",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "getAnyBalance",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "getBalanceByClient",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "getContractBalance",
+		  "outputs": [
+			  {
+				  "internalType": "uint256",
+				  "name": "",
+				  "type": "uint256"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [],
+		  "name": "tax",
+		  "outputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  },
+	  {
+		  "inputs": [
+			  {
+				  "internalType": "address",
+				  "name": "token",
+				  "type": "address"
+			  }
+		  ],
+		  "name": "whitelistToken",
+		  "outputs": [
+			  {
+				  "internalType": "address",
+				  "name": "",
+				  "type": "address"
+			  }
+		  ],
+		  "stateMutability": "view",
+		  "type": "function"
+	  }
+  ]
+  }
+  

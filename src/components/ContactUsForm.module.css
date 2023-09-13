@@ -1,0 +1,87 @@
+.conatctUsCardChild,
+.conatctUsCardInner,
+.conatctUsCardItem {
+  border: 1px solid var(--color-mediumpurple-100);
+  font-weight: 500;
+  background-color: transparent;
+  left: calc(50% - 130px);
+  box-sizing: border-box;
+  width: 260px;
+  height: 50px;
+  overflow: hidden;
+}
+.conatctUsCardChild {
+  font-family: var(--font-poppins);
+  font-size: var(--text-16-md-size);
+  position: absolute;
+  top: 20px;
+  border-radius: var(--br-5xs);
+}
+.conatctUsCardInner,
+.conatctUsCardItem {
+  border-radius: var(--br-7xs);
+}
+.conatctUsCardItem {
+  font-family: var(--font-poppins);
+  font-size: var(--text-16-md-size);
+  position: absolute;
+  top: 86px;
+}
+.conatctUsCardInner {
+  top: 152px;
+}
+.conatctUsCardInner,
+.frameTextarea,
+.send {
+  position: absolute;
+  font-size: var(--text-16-md-size);
+  font-family: var(--font-poppins);
+}
+.frameTextarea {
+  border: 1px solid var(--color-mediumpurple-100);
+  background-color: transparent;
+  font-weight: 500;
+  top: 218px;
+  left: calc(50% - 130px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+}
+.send {
+  top: 13px;
+  left: calc(50% - 24px);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+ /* color: var(--text-1-d); */
+ color: var(--text-3-d-p);
+  text-align: left;
+  display: inline-block;
+  width: 47px;
+  height: 23px;
+}
+.conatctUsCard,
+.sendWrapper {
+  position: absolute;
+  overflow: hidden;
+}
+.sendWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumpurple-100);
+  padding: 0;
+  background-color: transparent;
+  top: 384px;
+  left: calc(50% - 60px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+}
+.conatctUsCard {
+  top: 75px;
+  left: 0;
+  width: 300px;
+  height: 469px;
+  display: none;
+}

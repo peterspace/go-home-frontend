@@ -1,0 +1,37 @@
+.div,
+.majorBlockchainNetworks {
+  position: absolute;
+  height: 67.57%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.majorBlockchainNetworks {
+  height: 32.43%;
+  top: 67.57%;
+  font-size: var(--text-20-bd-size);
+}
+.frameInfo {
+  position: absolute;
+  height: 10.8%;
+  width: 37.79%;
+  top: 66.14%;
+  right: 58.5%;
+  bottom: 23.06%;
+  left: 3.71%;
+}
+.sliderExchangeSell {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 100%;
+  height: 685px;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--text-1-d);
+  font-family: var(--font-poppins);
+}

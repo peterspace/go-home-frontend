@@ -1,0 +1,92 @@
+.chatHeader {
+  background-color: var(--color-gray-300-z);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeWithText {
+  position: relative;
+  border-radius: var(--br-lg-4);
+  background-color: var(--color-gray-200-z);
+  width: 48px;
+  height: 46px;
+}
+.homeIcon1 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 16px);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.homeIcon,
+.shapeWithTextParent {
+  position: relative;
+  width: 48px;
+  height: 46px;
+}
+.homeIcon {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bellIcon,
+.primaryIcon {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+}
+.primaryIcon {
+  height: 58.7%;
+  width: 56.25%;
+  top: 20.65%;
+  right: 21.88%;
+  bottom: 20.65%;
+  left: 21.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.chatHeader1,
+.chatHeaderContainer {
+  background-color: var(--color-gray-300-z);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.chatHeaderContainer {
+  border: 1px solid var(--color-slateblue);
+  gap: var(--gap-661xl);
+}
+
+
+.primaryIcon2 {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  /* width: 32px;
+  height: 32px; */
+  width: 64px;
+  height: 64px;
+}
+.primaryIcon2 {
+  height: 58.7%;
+  width: 56.25%;
+  top: 20.65%;
+  right: 21.88%;
+  bottom: 20.65%;
+  left: 21.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}

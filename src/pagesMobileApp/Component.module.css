@@ -1,0 +1,118 @@
+.child,
+.ellipseDiv,
+.inner,
+.item {
+  position: absolute;
+  top: calc(50% - 295.5px);
+  left: calc(50% - 119.5px);
+  border-radius: 50%;
+  background-color: var(--color-plum);
+  filter: blur(360px);
+  width: 501px;
+  height: 340px;
+  opacity: 0.6;
+}
+.ellipseDiv,
+.inner,
+.item {
+  top: calc(50% - 28.5px);
+  left: calc(50% - 125.5px);
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.ellipseDiv,
+.inner {
+  left: calc(50% - 400.5px);
+  background-color: var(--color-plum);
+  width: 501px;
+  height: 340px;
+}
+.ellipseDiv {
+  top: calc(50% - 344.5px);
+  left: calc(50% - 487.5px);
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.menu01Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.horiza {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.chevronDownIcon,
+.protocolIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.chevronDownIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.protocolIconParent {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.walletIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.walletIconWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent,
+.menu01Parent,
+.walletIconWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.menu01Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  padding: var(--padding-xl) var(--padding-base) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.div {
+  position: relative;
+  background-color: var(--surface-1-d);
+  /* width: 100%; */
+  width: 375px;
+  height: 667px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--text-1-d);
+  /* font-family: var(--font-abc-ginto-plus-variable-unlicensed-trial); */
+}

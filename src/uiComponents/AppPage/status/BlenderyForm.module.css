@@ -1,0 +1,35 @@
+.logoFrameIcon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 36px;
+  height: 46px;
+  overflow: hidden;
+}
+.blendery {
+  position: absolute;
+  top: 19px;
+  left: 44px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.govercityLogo {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 14px;
+  border-radius: 12px;
+  width: 153px;
+  height: 66px;
+}
+.notificationHeader {
+  position: relative;
+  background-color: #130d1a;
+  width: 440px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}

@@ -1,0 +1,261 @@
+.aboutUs,
+.blogNews,
+.buy,
+.faq,
+.sell,
+.swap,
+.termsOfUse {
+  position: absolute;
+  top: 95px;
+  left: 304px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 68px;
+}
+.blogNews,
+.buy,
+.faq,
+.sell,
+.swap,
+.termsOfUse {
+  top: 98px;
+  left: 457px;
+}
+.blogNews,
+.buy,
+.faq,
+.sell,
+.termsOfUse {
+  top: 101px;
+  left: 610px;
+}
+.blogNews,
+.buy,
+.sell,
+.termsOfUse {
+  top: 121px;
+  left: 304px;
+  width: 103px;
+}
+.buy,
+.sell,
+.termsOfUse {
+  top: 124px;
+  left: 457px;
+  width: 68px;
+}
+.sell,
+.termsOfUse {
+  top: 101px;
+  left: 763px;
+  width: 96px;
+}
+.sell {
+  top: 150px;
+  left: 457px;
+  width: 68px;
+}
+.aboutUs1,
+.contactUs,
+.exchange,
+.helpCenter,
+.privacyPolicy,
+.riskDisclosureStatement,
+.telegramBot {
+  position: absolute;
+  top: 127px;
+  left: 610px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 99px;
+}
+.aboutUs1,
+.exchange,
+.helpCenter,
+.privacyPolicy,
+.riskDisclosureStatement,
+.telegramBot {
+  left: 763px;
+  width: 96px;
+}
+.aboutUs1,
+.exchange,
+.helpCenter,
+.riskDisclosureStatement,
+.telegramBot {
+  top: 176px;
+  left: 457px;
+  width: 68px;
+}
+.aboutUs1,
+.helpCenter,
+.riskDisclosureStatement,
+.telegramBot {
+  top: 153px;
+  left: 610px;
+  width: 99px;
+}
+.aboutUs1,
+.riskDisclosureStatement,
+.telegramBot {
+  left: 763px;
+  width: 182px;
+}
+.aboutUs1,
+.telegramBot {
+  top: 202px;
+  left: 457px;
+  width: 96px;
+}
+.aboutUs1 {
+  top: 179px;
+  left: 610px;
+  width: 68px;
+}
+.company,
+.followUs,
+.govercitycom,
+.legal,
+.services,
+.support {
+  position: absolute;
+  top: 65px;
+  left: 304px;
+  font-size: var(--text-18-bd-size);
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--text-3-d-p);
+  display: inline-block;
+  width: 103px;
+}
+.followUs,
+.govercitycom,
+.legal,
+.services,
+.support {
+  top: 223px;
+  left: 99px;
+  width: 125px;
+}
+.followUs,
+.legal,
+.services,
+.support {
+  top: 68px;
+  left: 457px;
+  width: 83px;
+}
+.followUs,
+.legal,
+.support {
+  top: 71px;
+  left: 610px;
+}
+.followUs,
+.legal {
+  top: 74px;
+  left: 763px;
+}
+.followUs {
+  top: 287px;
+  left: 667.5px;
+}
+.discord2Icon,
+.instagram2Icon,
+.telegram2Icon,
+.twitter2Icon,
+.youtube2Icon {
+  position: absolute;
+  top: 288px;
+  left: 763.5px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.discord2Icon,
+.instagram2Icon,
+.telegram2Icon,
+.twitter2Icon {
+  left: 815.5px;
+}
+.discord2Icon,
+.instagram2Icon,
+.telegram2Icon {
+  left: 863.5px;
+}
+.discord2Icon,
+.instagram2Icon {
+  left: 901.5px;
+}
+.discord2Icon {
+  left: 947.5px;
+}
+.inchAllRights {
+  position: absolute;
+  top: 287px;
+  left: 355.5px;
+  font-size: var(--text-16-bd-size);
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--text-3-d-p);
+}
+.footerChild {
+  position: absolute;
+  height: 40.74%;
+  width: 13.25%;
+  top: 17.89%;
+  right: 77.81%;
+  bottom: 41.37%;
+  left: 8.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerItem,
+.logoFrame {
+  position: absolute;
+  top: 312px;
+  left: 304.5px;
+  width: 24px;
+  height: 30.67px;
+  overflow: hidden;
+}
+.footerItem {
+  height: 7.05%;
+  width: 2.29%;
+  top: 85.1%;
+  right: 65.6%;
+  bottom: 7.85%;
+  left: 32.1%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.footer,
+.footerEco {
+  position: relative;
+  height: 335px;
+  overflow: hidden;
+}
+.footer {
+  width: 989px;
+  flex-shrink: 0;
+}
+.footerEco {
+  background-color: var(--color-gray-1200);
+  border: 1px solid var(--color-mediumpurple-300);
+  box-sizing: border-box;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--text-14-md-size);
+  color: var(--text-2-d-p);
+  font-family: var(--text-14-md);
+}

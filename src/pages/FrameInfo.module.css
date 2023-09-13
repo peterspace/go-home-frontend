@@ -1,0 +1,23 @@
+.div,
+.supportedFiatCurrencies {
+  position: absolute;
+  height: 67.57%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.supportedFiatCurrencies {
+  height: 32.43%;
+  top: 67.57%;
+  font-size: var(--text-20-bd-size);
+}
+.frameInfo {
+  position: relative;
+  width: 100%;
+  height: 74px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--text-1-d);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,86 @@
+.userAvatarIcon {
+  position: relative;
+  border-radius: var(--br-341xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.adrain,
+.itsGoingWell {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+}
+.itsGoingWell {
+  font-size: var(--text-14-md-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--text-2-d-p);
+}
+.adrainParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.aug20,
+.lineChatIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.lineChatIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.aug20 {
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 38px;
+  height: 10px;
+}
+.lineChatParent {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 19px);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.usersCard,
+.usersCardInner {
+  position: relative;
+  overflow: hidden;
+}
+.usersCardInner {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  font-size: var(--font-size-5xs);
+  font-family: var(--font-roboto-mono);
+}
+.usersCard {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-mediumpurple-100-z);
+  box-sizing: border-box;
+  width: 296px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-16-bd-size);
+  color: var(--text-3-d-p);
+  font-family: var(--text-14-md);
+}

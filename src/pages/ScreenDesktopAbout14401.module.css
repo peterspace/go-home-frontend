@@ -1,0 +1,99 @@
+.aboutFormChild {
+  position: absolute;
+  top: 0;
+  left: 261px;
+  background-color: var(--color-slateblue);
+  width: 1px;
+  height: 544px;
+}
+.aboutUs {
+  margin: 0;
+  font-weight: 600;
+}
+.blankLine {
+  margin: 0;
+}
+.aboutUsAtContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 700px;
+  height: 400px;
+}
+.aboutBody {
+  top: 85px;
+  left: 306px;
+  width: 700px;
+  height: 400px;
+}
+.aboutBody,
+.aboutForm,
+.aboutformContainer {
+  position: absolute;
+  overflow: hidden;
+}
+.aboutForm {
+  height: 74.97%;
+  top: 12.54%;
+  bottom: 12.49%;
+  left: calc(50% - 512.2px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+}
+.aboutformContainer {
+  top: 59px;
+  left: calc(50% - 676px);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1352.4px;
+  height: 725.66px;
+}
+.web30Eco {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.yourGatewayTo {
+  margin: 0;
+  font-size: 38.26px;
+}
+.web30EcoContainer {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 329px);
+  display: inline-block;
+  width: 758.83px;
+  height: 145.6px;
+}
+.sliderContainer {
+  position: absolute;
+  top: 990px;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+}
+.screenDesktopAbout1440 {
+  position: relative;
+  width: 100%;
+  height: 2048px;
+  overflow: hidden;
+  background-image: url(/screendesktopvision1440@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--font-poppins);
+}

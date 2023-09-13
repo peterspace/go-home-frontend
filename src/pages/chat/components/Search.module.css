@@ -1,0 +1,27 @@
+.searchBarContainerIcon,
+.searchChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.searchBarContainerIcon {
+  width: 98.77%;
+  right: 1.23%;
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.searchChild {
+  width: 1.23%;
+  right: 0;
+  left: 98.77%;
+  background-color: var(--color-crimson);
+}
+.search {
+  position: relative;
+  width: 81px;
+  height: 80px;
+}

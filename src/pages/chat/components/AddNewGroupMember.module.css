@@ -1,0 +1,83 @@
+.userAvatarIcon {
+  position: relative;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.adrain,
+.berlin {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.adrain {
+  line-height: 22px;
+  display: inline-block;
+  width: 136px;
+}
+.berlin {
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9d9da3;
+}
+.userBasicInfo {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addUserIcon,
+.tx025 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.tx025 {
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 38px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.addUserBox {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 19px);
+  display: flex;
+  flex-direction: column;
+  padding: 1px 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.addNewGroupMember,
+.addUser {
+  position: relative;
+  overflow: hidden;
+}
+.addUser {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  font-size: 8px;
+}
+.addNewGroupMember {
+  border-radius: 12px;
+  border: 1px solid rgba(145, 107, 224, 0.2);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Roboto Mono";
+}

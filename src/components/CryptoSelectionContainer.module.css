@@ -1,0 +1,65 @@
+.div {
+  position: absolute;
+  top: 26.6px;
+  left: 31.27px;
+  letter-spacing: 0.02em;
+  line-height: 20.53px;
+  display: inline-block;
+  width: 21.47px;
+  height: 30.8px;
+}
+.wrapper {
+  position: relative;
+  width: 84.47px;
+  height: 84px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chooseCrypto,
+.selectYourDesired {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.chooseCrypto {
+  flex: 1;
+  line-height: 20.53px;
+  display: inline-block;
+  width: 114.33px;
+}
+.selectYourDesired {
+  align-self: stretch;
+  font-size: var(--font-size-5xs);
+  line-height: 9.33px;
+  font-weight: 500;
+  /* color: var(--text-2-d); */
+  color: var(--text-2-d-p);
+}
+.chooseCryptoParent {
+  width: 159.13px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 11.19999885559082px 5.133333206176758px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.67px;
+  font-size: 14.93px;
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: 14.93px;
+  border: 1px solid var(--color-darkslateblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 15.399998664855957px 8.866665840148926px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-25xl-8);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--text-16-md);
+}

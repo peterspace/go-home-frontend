@@ -1,0 +1,141 @@
+.signupChild {
+  position: absolute;
+  top: 98px;
+  left: 1px;
+  width: 1439px;
+  height: 926px;
+}
+.upload5Icon,
+.upload5Icon1 {
+  position: absolute;
+  top: 351px;
+  left: 57px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.upload5Icon1 {
+  top: 579px;
+  width: 32px;
+  height: 32px;
+}
+.shapeWithText {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-200-z);
+  width: 336px;
+  height: 64px;
+}
+.cursorIcon {
+  position: absolute;
+  top: 465px;
+  left: 57px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.alreadyHaveAn,
+.eMail,
+.password,
+.username {
+  position: absolute;
+  top: 346px;
+  left: 129px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 137px;
+}
+.alreadyHaveAn,
+.eMail,
+.password {
+  top: 460px;
+  width: 99px;
+}
+.alreadyHaveAn,
+.password {
+  top: 574px;
+  width: 147px;
+}
+.alreadyHaveAn {
+  top: 853px;
+  left: 62px;
+  width: 399px;
+}
+.createYourAccount,
+.login,
+.welcome {
+  position: absolute;
+  line-height: 150%;
+  font-family: var(--font-merriweather);
+  color: var(--color-gainsboro-z);
+}
+.welcome {
+  top: 104px;
+  left: 97px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 513px;
+}
+.createYourAccount,
+.login {
+  letter-spacing: -0.01em;
+}
+.createYourAccount {
+  top: 250px;
+  left: 119px;
+  font-size: var(--text-16-bd-size);
+}
+.login {
+  top: 853px;
+  left: 286px;
+}
+.frameChild {
+  position: absolute;
+  top: 703px;
+  left: 57px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-crimson);
+  width: 585px;
+  height: 100px;
+}
+.register {
+  position: absolute;
+  top: 729px;
+  left: 276px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  /* line-height: 150%; */
+  font-family: var(--font-merriweather);
+  /* color: var(--color-gainsboro-z); */
+}
+.upload5Parent {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  background-color: var(--color-gray-300-z);
+  width: 700px;
+  height: 926px;
+  overflow: hidden;
+}
+.signup {
+  position: relative;
+  background-color: var(--color-gray-400-z);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-14-md-size);
+  color: var(--color-crimson);
+  font-family: var(--font-roboto-mono);
+}
+
+/* //==={Custom} */
+.upload {
+  position: absolute;
+  top: 630px;
+  left: 129px;
+  /* width: 147px; */
+  width: 100%;
+}

@@ -1,0 +1,91 @@
+.file2Icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.iconButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  /* background-color: var(--surface-tint-d-8); */
+  background-color: var(--text-1-d);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUs {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 120px;
+}
+.content,
+.content1,
+.content2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 181px;
+  height: 40px;
+}
+.content1,
+.content2 {
+  top: 50px;
+}
+.content2 {
+  top: 100px;
+}
+.whyChooseUs {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 126px;
+}
+.content3,
+.content4,
+.content5,
+.content6 {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 181px;
+  height: 40px;
+}
+.content4,
+.content5,
+.content6 {
+  top: 200px;
+}
+.content5,
+.content6 {
+  top: 250px;
+}
+.content6 {
+  top: 300px;
+}
+.aboutMenu {
+  position: relative;
+  background-color: var(--color-black);
+  width: 203px;
+  height: 340px;
+  text-align: left;
+  font-size: var(--text-16-md-size);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--font-poppins);
+}

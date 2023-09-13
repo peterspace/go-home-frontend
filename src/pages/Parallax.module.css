@@ -1,0 +1,32 @@
+.content {
+  height: 100vh;
+  width: 1024px;
+  /* height: 685px; */
+}
+
+.textContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+    /* width: 1024px; */
+}
+
+.image{
+  position:relative;
+  height: 100vh;
+}

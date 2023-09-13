@@ -1,0 +1,309 @@
+.child,
+.ellipseDiv,
+.inner,
+.item {
+  position: absolute;
+  top: 178px;
+  left: 620px;
+  border-radius: 50%;
+  background-color: var(--color-plum);
+  filter: blur(360px);
+  width: 501px;
+  height: 340px;
+  opacity: 0.6;
+}
+.ellipseDiv,
+.inner,
+.item {
+  top: 445px;
+  left: 614px;
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.ellipseDiv,
+.inner {
+  left: 339px;
+  background-color: var(--color-plum);
+  width: 501px;
+  height: 340px;
+}
+.ellipseDiv {
+  top: 129px;
+  left: 252px;
+  background-color: var(--color-slateblue);
+  width: 574px;
+  height: 389px;
+}
+.documentation {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.documentationParent {
+  position: absolute;
+  top: 934px;
+  left: 0;
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(120px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-29xl);
+  color: var(--text-2-d);
+}
+.horiza,
+.swap {
+  position: relative;
+  line-height: 32px;
+}
+.swap {
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--text-1-d);
+}
+.horizaParent,
+.swapParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.swapParent {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--text-16-md-size);
+  color: var(--color-gray-200);
+  font-family: var(--text-16-md);
+}
+.horizaParent {
+  align-items: center;
+  gap: var(--gap-29xl);
+}
+.protocolIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.ethereum {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.chevronDownIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.protocolIconParent {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.walletIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameGroup {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-16-md-size);
+  font-family: var(--text-16-md);
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  backdrop-filter: blur(120px);
+  width: 1440px;
+  padding: var(--padding-base) var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-value-sans-pro);
+}
+.frameChild {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.walletIconGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.xCloseIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv,
+.iconButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.iconButton {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  width: 36px;
+  height: 36px;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.eth {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 44px;
+}
+.div1,
+.eth,
+.ethParent {
+  align-self: stretch;
+}
+.div1 {
+  position: relative;
+  font-size: var(--text-14-md-size);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--surface-tint-64-d);
+}
+.ethParent {
+  border-radius: var(--br-base);
+  background-color: var(--surface-tint-d-8);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--text-32-bd-size);
+}
+.base {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 100px;
+  background: linear-gradient(
+    89.96deg,
+    #74ff63,
+    #7c90fe 30.21%,
+    #f05dfd 70.31%,
+    #fff73f
+  );
+}
+.avatar1 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.x54b779841 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.iconButton1 {
+  border-radius: var(--br-xs);
+  background-color: var(--surface-tint-d-8);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.avatarParent,
+.frameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatarParent {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  gap: var(--gap-xs);
+}
+.frameContainer {
+  position: absolute;
+  top: 132px;
+  left: calc(50% - 240px);
+  border-radius: var(--br-13xl);
+  background-color: var(--surface-1-64-d);
+  box-shadow: var(--effect);
+  border: 1px solid var(--surface-tint-16-d);
+  box-sizing: border-box;
+  width: 480px;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  gap: var(--gap-5xl);
+  font-size: var(--text-16-md-size);
+}
+.div {
+  position: relative;
+  background-color: var(--surface-1-d);
+  width: 100%;
+  height: 986px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-14-md-size);
+  color: var(--text-1-d);
+  font-family: var(--text-16-md);
+}

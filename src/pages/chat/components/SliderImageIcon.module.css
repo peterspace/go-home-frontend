@@ -1,0 +1,10 @@
+.sliderImageIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+  object-fit: cover;
+}

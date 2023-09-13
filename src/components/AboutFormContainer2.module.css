@@ -1,0 +1,82 @@
+.aboutFormSwapChild {
+  position: absolute;
+  top: 0;
+  left: 261px;
+  background-color: var(--color-slateblue);
+  width: 1px;
+  height: 544px;
+}
+.instruction {
+  border-radius: 14.93px;
+  width: 280px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 5.59999942779541px 9.333333015441895px 6.066666126251221px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-2xl);
+}
+.instructionWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.swapPhone2Icon {
+  position: absolute;
+  top: calc(50% - 188.03px);
+  left: 360px;
+  width: 186px;
+  height: 375.55px;
+  object-fit: cover;
+}
+.frameParent {
+  position: absolute;
+  top: 2px;
+  left: calc(50% - 273px);
+  width: 546px;
+  height: 398.07px;
+}
+.aboutBody,
+.aboutFormSwap {
+  position: absolute;
+  overflow: hidden;
+}
+.aboutBody {
+  top: 85px;
+  left: 306px;
+  width: 700px;
+  height: 400px;
+}
+.aboutFormSwap {
+  height: 74.97%;
+  top: 12.54%;
+  bottom: 12.49%;
+  left: calc(50% - 512.2px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+}
+.aboutformContainer {
+  position: absolute;
+  top: 59px;
+  left: calc(50% - 676px);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1352.4px;
+  height: 725.66px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-25xl-8);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--text-16-md);
+}

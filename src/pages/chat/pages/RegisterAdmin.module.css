@@ -1,0 +1,133 @@
+.search {
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.searchBox {
+  position: relative;
+  border-radius: 8px;
+  background-color: #191521;
+  border: 1px solid #916be0;
+  box-sizing: border-box;
+  width: 115px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.afghanistan {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.countryListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.countryListContainer {
+  position: absolute;
+  /* top: 272px; */
+  /* top: 100px; */
+  /* top: 112px; */
+  top: 162px;
+  left: 0;
+  /* left: 321px; */
+  border-radius: 8px;
+  background-color: #191521;
+  border: 1px solid rgba(145, 107, 224, 0.2);
+  box-sizing: border-box;
+  /* width: 152px; */
+  width: 355px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.profileOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 1000px;
+  height: 653px;
+  overflow: hidden;
+}
+.chatCreateGroup {
+  position: relative;
+  width: 1000px;
+  height: 653px;
+}
+.messagesAreaWithProfile {
+  border-radius: 6px;
+  border: 1px solid #6a40ae;
+  box-sizing: border-box;
+  width: 1010px;
+  height: 696px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputSectionChild {
+  position: relative;
+  width: 40.5px;
+  height: 40px;
+}
+.sendAMessage {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 803px;
+  flex-shrink: 0;
+}
+.placeholderTyping {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 9px 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.attachIcons {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputSection,
+.messages {
+  border-radius: 6px;
+  border: 1px solid #6a40ae;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: Inter;
+}
+.messages {
+  background-color: #191521;
+  box-sizing: border-box;
+  width: 1030px;
+  height: 765px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto Mono";
+}

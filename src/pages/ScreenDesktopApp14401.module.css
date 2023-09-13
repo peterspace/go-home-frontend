@@ -1,0 +1,239 @@
+.desktopAppContainer,
+.desktopAppIcon {
+  position: absolute;
+  left: calc(50% - 247px);
+  border-radius: var(--br-base);
+  width: 494px;
+  overflow: hidden;
+}
+.desktopAppIcon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.desktopAppContainer {
+  height: 38.38%;
+  top: 7.37%;
+  bottom: 54.25%;
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.web30Eco {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.yourGatewayTo {
+  margin: 0;
+  font-size: 38.26px;
+}
+.web30EcoContainer {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 329px);
+  display: inline-block;
+  width: 758.83px;
+  height: 145.6px;
+}
+.sliderContainer {
+  position: absolute;
+  top: 990px;
+  left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden;
+}
+.screenDesktopApp1440 {
+  position: relative;
+  width: 100%;
+  /* height: 2048px; */
+  height: 100%;
+  /* height: 5727px; */
+  overflow: hidden;
+  /* background-image: url(/screendesktopvision1440@3x.png); */
+  /* background-image: url(/mainBg.png); */
+  background-image: url(/newBg2.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--font-poppins);
+}
+
+.desktopAppContainerCustom1 {
+  height: 38.38%;
+  top: 7.37%;
+  bottom: 54.25%;
+  /* border: 1px solid var(--color-slateblue); */
+  /* box-sizing: border-box; */
+  position: absolute;
+  left: calc(50% - 247px);
+  border-radius: var(--br-base);
+  width: 494px;
+  overflow: hidden;
+}
+
+.desktopAppContainerCustom {
+  height: 38.38%;
+  top: 2.37%;
+  /* bottom: 54.25%; */
+  position: absolute;
+  left: calc(50% - 247px);
+  border-radius: var(--br-base);
+  width: 494px;
+  overflow: hidden;
+}
+
+.sliderContainerCustom {
+  /* position: absolute; */
+  top: 990px;
+  /* left: calc(50% - 512px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 1024px;
+  height: 685px;
+  overflow: hidden; */
+}
+
+.sliderSection1 {
+  /* position: absolute; */
+  /* border-radius: var(--br-base); */
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 685px; */
+  overflow: hidden;
+}
+
+/* New */
+.heroButtons {
+  position: absolute;
+  top: 685px;
+  left: calc(50% - 675px);
+  width: 242px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.sliderSection {
+  /* background-image: url(/newBg2.png); */
+  background-color: var(--color-black);
+  /* border: 1px solid var(--color-slateblue); */
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sliderSection2 {
+  background-image: url(/bg-s6.svg);
+  /* background-image: url(/newBg2.png); */
+  /* background-color: var(--color-black); */
+  /* border: 1px solid var(--color-slateblue); */
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* .boderSection {
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+} */
+
+.boderSection {
+  background-color: var(--color-black);
+  /* border: 1px solid var(--color-slateblue); */
+  border: 0.5px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* new */
+
+.payInThe {
+  position: absolute;
+  top: 84px;
+  left: 35px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--text-2-d-p);
+}
+.applePay1Icon,
+.masterCard1Icon,
+.sepa1Icon,
+.unionPay1Icon,
+.visa1Icon {
+  position: absolute;
+  top: 68px;
+  left: 967px;
+  width: 56px;
+  height: 36px;
+  overflow: hidden;
+}
+.applePay1Icon,
+.masterCard1Icon,
+.sepa1Icon,
+.visa1Icon {
+  left: 654px;
+  width: 63px;
+}
+.applePay1Icon,
+.masterCard1Icon,
+.sepa1Icon {
+  left: 576px;
+  width: 57px;
+}
+.applePay1Icon,
+.sepa1Icon {
+  left: 751px;
+  width: 62px;
+}
+.applePay1Icon {
+  left: 847px;
+  width: 86px;
+}
+.payment {
+  position: absolute;
+  top: 21px;
+  left: 35px;
+  /* font-size: var(--text-48bd-size); */
+  font-size: var(--text-32-bd-size);
+  letter-spacing: 0.02em;
+  line-height: 44px;
+  display: inline-block;
+  width: 280px;
+}
+
+.payOptions {
+  /* top: 4837px; */
+  /* top: 730px; */
+  /* left: calc(50% - 526px); */
+  border-radius: var(--br-13xl);
+  border: 1px solid var(--color-mediumpurple-p);
+  width: 1052px;
+  /* height: 180px; */
+  height: 150px;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+}

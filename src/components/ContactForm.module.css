@@ -1,0 +1,50 @@
+.govercity {
+  position: absolute;
+  height: 13.97%;
+  width: 40.17%;
+  top: 51.29%;
+  left: 3.17%;
+  font-weight: 600;
+  display: inline-block;
+}
+.contactForm,
+.contactFormChild {
+  position: absolute;
+  overflow: hidden;
+}
+.contactFormChild {
+  height: 27.63%;
+  width: 21.83%;
+  top: 18.2%;
+  right: 67.17%;
+  bottom: 54.17%;
+  left: 11%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.contactForm {
+  height: 74.97%;
+  top: 12.54%;
+  bottom: 12.49%;
+  left: calc(50% - 300.2px);
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 600px;
+}
+.contactformContainer {
+  position: absolute;
+  top: 88px;
+  left: calc(50% - 676px);
+  /* background-color: var(--color-gray-300); */
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+  width: 1352.4px;
+  height: 725.66px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,113 @@
+.contactUs {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 114px);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  display: inline-block;
+  width: 205px;
+  height: 23px;
+}
+.conatctUsCardChild,
+.conatctUsCardInner,
+.conatctUsCardItem {
+  border: 1px solid var(--color-mediumpurple-100);
+  font-weight: 500;
+  background-color: transparent;
+  left: calc(50% - 130px);
+  box-sizing: border-box;
+  width: 260px;
+  height: 50px;
+  overflow: hidden;
+}
+.conatctUsCardChild {
+  font-family: var(--text-16-md);
+  font-size: var(--text-16-md-size);
+  position: absolute;
+  top: 20px;
+  border-radius: var(--br-5xs);
+}
+.conatctUsCardInner,
+.conatctUsCardItem {
+  border-radius: var(--br-7xs);
+}
+.conatctUsCardItem {
+  font-family: var(--text-16-md);
+  font-size: var(--text-16-md-size);
+  position: absolute;
+  top: 86px;
+}
+.conatctUsCardInner {
+  top: 152px;
+}
+.conatctUsCardInner,
+.frameTextarea,
+.send {
+  position: absolute;
+  font-size: var(--text-16-md-size);
+  font-family: var(--text-16-md);
+}
+.frameTextarea {
+  border: 1px solid var(--color-mediumpurple-100);
+  background-color: transparent;
+  font-weight: 500;
+  top: 218px;
+  left: calc(50% - 130px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+}
+.send {
+  top: 13px;
+  left: calc(50% - 24px);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  text-align: left;
+  display: inline-block;
+  width: 47px;
+  height: 23px;
+}
+.sendWrapper {
+  cursor: pointer;
+  /* border: 1px solid var(--color-mediumpurple-100); */
+  border: 1px solid var(--color-mediumpurple-100);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 384px;
+  left: calc(50% - 60px);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+  overflow: hidden;
+}
+.conatctUs,
+.conatctUsCard {
+  width: 300px;
+  overflow: hidden;
+}
+.conatctUsCard {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  background-color: rgba(19, 13, 26, 0.04);
+  height: 469px;
+}
+.conatctUs {
+  position: relative;
+  height: 544px;
+  background-image: url(/conatctus@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  /* color: var(--text-1-d); */
+  color: var(--text-3-d-p);
+  font-family: var(--text-16-md);
+}

@@ -1,0 +1,21 @@
+.frameGroupCustom {
+  /* border-radius: 6px; */
+  /* background-color: var(--surface-1-64-d); */
+  background-color: #fafafa;
+  backdrop-filter: blur(40px);
+  /* border: 1px solid var(--surface-swap); */
+  border: 1px solid var(--surface-swap);
+  box-sizing: border-box;
+  /* width: 480px; */
+  /* width: 440px; */
+  /* height: 100%; */
+  /* height: 684px; */
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  /* padding: var(--padding-base) var(--padding-xs) var(--padding-5xl); */
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-18-bd-size);
+}
